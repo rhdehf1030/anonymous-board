@@ -10,7 +10,7 @@ ORM: TypeORM v0.2
 
 Testing Tool: jest
 
-## Setup Databasae
+## Setup Database
 
 MySQL Server 8.x 설치
 src\config\envs\default.ts 파일에 DB 연결 관련 정보 세팅
