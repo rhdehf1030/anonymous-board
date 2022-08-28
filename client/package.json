@@ -1,0 +1,39 @@
+{
+  "name": "anonymous-post-client",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/demo/",
+    "lint": "eslint --ext .ts,.vue .",
+    "deploy:windows": "rmdir /s /q ..\\server\\public && mkdir ..\\server\\public && xcopy dist\\ ..\\server\\public\\ /E /Y"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.0.96",
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.5",
+    "vite-plugin-vuetify": "1.0.0-alpha.14",
+    "vue": "^3.0.4",
+    "vuetify": "^3.0.0-beta.9"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.10",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/compiler-sfc": "^3.0.4",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-vue": "^7.15.1",
+    "prettier": "^2.3.2",
+    "prettier-eslint-cli": "^5.0.1",
+    "typescript": "^4.3.5",
+    "vite": "^3.0.9",
+    "vue-eslint-parser": "^9.0.2",
+    "vue-loader": "^16.4.1",
+    "vue-windicss-preprocess": "^2.2.0"
+  }
+}
